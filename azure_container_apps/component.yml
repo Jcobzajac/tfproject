@@ -1,0 +1,16 @@
+componentType: state.azure.cosmosdb
+version: v1
+metadata:
+  - name: url
+    value: https://acaproject.documents.azure.com:443/
+  - name: masterKey
+    value: masterkeyvalue
+  - name: database
+    value: database
+  - name: collection
+    value: data
+  - name: partitionKey
+    value: id
+  
+scopes:
+  - backend
